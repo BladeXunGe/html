@@ -11,7 +11,7 @@ ol, ul, li {
 a {
     text-decoration: none;
     display: block;
-    color: #fff
+    color: #fff;
 }
 
 img {
@@ -25,7 +25,7 @@ img {
 .clearfloat:after{
     display: block;
     clear: both;
-    content: ""
+    content: "";
     visibility: hidden;
     height: 0;
 }
