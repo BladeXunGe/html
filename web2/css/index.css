@@ -1,0 +1,65 @@
+
+.index-banner {
+    position: relative;
+
+
+}
+
+.index-banner-bg {
+    height: 769px;
+
+    overflow: hidden;
+}
+
+.index-banner-bg img {
+    margin: 0 auto;
+}
+
+.index-banner-info .info-logo {
+  width: 140px;
+  height: 116px;
+  background: url("../images/blogo.png") no-repeat;
+  position: absolute;
+  top: 180px;
+  left: 50%;
+  margin-left: -70px;
+}
+
+.index-banner-info .info-title {
+  width: 490px;
+  height: 60px;
+  position: absolute;
+  top: 335px;
+  left: 50%;
+  margin-left: -245px;
+  background: url("../images/btitle.png") no-repeat;
+}
+
+.index-banner-info .info-txt {
+    position: absolute;
+    width: 656px;
+    top: 424px;
+    text-align: center;
+    color: #fff;
+    left: 50%;
+    margin-left: -328px;
+}
+
+.index-banner-info .info-btn {
+  width: 970px;
+  height: 76px;
+  position: absolute;
+  
+  top: 580px;
+  left: 50%;
+  margin-left: -485px;
+}
+
+.index-banner-info .info-btn .btn {
+  float: left;
+  margin-right: 214px;
+}
+
+.index-banner-info .info-btn .btn:last-child {
+  margin-right: 0;
+}

@@ -1,0 +1,72 @@
+
+.public-header {
+  position: absolute;
+  height: 110px;
+  width: 100%;
+  z-index: 99;
+
+}
+
+.public-header .head-logo {
+  float: left;
+  margin-top: 28px;
+
+}
+
+.public-header .head-logo .logo {
+  float: left;
+  margin-left: 23px;
+  color: #fff;
+}
+
+.public-header .head-logo a {
+  height: 52px;
+  width: 48px;
+  background: url("../images/logo.png");
+}
+
+.public-header .head-logo .info {
+  width: 92px;
+  height: 30px;
+  margin-top: 14px;
+  font-size: 24px;
+}
+
+.public-header .head-nave {
+    float: right;
+    font-size: 18px;
+}
+
+.public-header .head-nave .item {
+    float: right;
+    margin-top: 48px;
+    margin-right: 25px;
+}
+
+.public-header .head-nave a {
+    color: #fff;
+}
+
+.public-header .head-nave .pic {
+  float: right;
+  height: 24px;
+  width: 22px;
+  margin-top: 42px;
+  margin-left: 28px;
+}
+
+.public-header .head-nave .pic-space {
+  margin-right: 7px;
+}
+
+.public-container {
+    position: relative;
+    margin: 0 auto;
+
+    width: 1170px;
+}
+
+.header-line {
+  height: 30px;
+  border-bottom: 1px solid #fff;
+}
