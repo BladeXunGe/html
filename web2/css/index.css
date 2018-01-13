@@ -49,17 +49,46 @@
   width: 970px;
   height: 76px;
   position: absolute;
-  
   top: 580px;
   left: 50%;
   margin-left: -485px;
 }
 
 .index-banner-info .info-btn .btn {
+  width: 212px;
   float: left;
-  margin-right: 214px;
+  margin-right: 160px;
+  text-align: center;
+  font-size: 21px;
 }
 
 .index-banner-info .info-btn .btn:last-child {
+  margin-right: 0;
+}
+
+.index-banner-info .btn-group {
+    font-size: 0;
+    position: absolute;
+    width: 76px;
+    height: 20px;
+    top: 702px;
+    left: 50%;
+    margin-left: -38px;
+}
+
+.index-banner-info .btn-group .btn {
+    display: inline-block;
+    margin-right: 14px;
+    width: 14px;
+    height: 14px;
+    background: #dedede;
+    border-radius: 50%;
+}
+
+.index-banner-info .btn-group .active {
+    background: #9b9b9b;
+}
+
+.index-banner-info .btn-group .btn:last-child {
   margin-right: 0;
 }
