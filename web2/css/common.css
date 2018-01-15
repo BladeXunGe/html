@@ -61,9 +61,10 @@
 
 .public-container {
     position: relative;
-    margin: 0 auto;
-
+    
     width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .header-line {
